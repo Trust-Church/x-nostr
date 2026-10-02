@@ -1,0 +1,17 @@
+{
+  "name": "trustchurch-x-nostr",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "match": "node match-nostr.js",
+    "setup:nostr": "node setup-nip46.js",
+    "publish": "node publish-nostr.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "nostr-tools": "^2.17.0",
+    "ws": "^8.22.0"
+  }
+}
